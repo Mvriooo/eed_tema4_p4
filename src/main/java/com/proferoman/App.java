@@ -7,9 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.proferoman.order.Order;
+import com.proferoman.strategies.PayStrategy;
 import com.proferoman.strategies.PayByCreditCard;
 import com.proferoman.strategies.PayByPayPal;
-import com.proferoman.strategies.PayStrategy;
+
 
 public class App {
     private static Map<Integer, Integer> priceOnProducts = new HashMap<>();
